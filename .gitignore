@@ -1,3 +1,7 @@
 # pycache
 __pycache__/
 *.pyc
+
+# large cache parquet files (exceed GitHub 100MB limit)
+data/suicide_predict/cache/emotion/comment_kote_probs.parquet
+data/suicide_predict/cache/raw/youtube_news_comments.parquet

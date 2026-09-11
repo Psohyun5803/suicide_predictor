@@ -1,0 +1,5 @@
+model,n_feat,R2,MAE,RMSE,n
+Seasonal only,2,0.3722,63.492,83.411,22
+Seasonal + E,6,0.3816,61.093,82.781,22
+Seasonal + S,26,0.3264,66.204,86.396,22
+Seasonal + S + E,30,0.2702,67.843,89.928,22

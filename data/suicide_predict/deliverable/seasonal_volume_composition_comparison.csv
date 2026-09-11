@@ -1,0 +1,5 @@
+model,n_feat,R2,MAE,RMSE,n
+Seasonal only,2,0.3722,63.492,83.411,22
+Seasonal + Volume,3,0.4762,51.725,76.183,22
+Seasonal + Volume + E_composition,7,0.1604,67.849,96.46,22
+Seasonal + E_composition (volume 없이),6,0.0109,77.66,104.696,22
