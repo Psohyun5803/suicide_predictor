@@ -1,0 +1,13 @@
+model,n_feat,R2,MAE,RMSE,n
+"Seasonal only (기준선, volume 없이)",2,0.3722,63.492,83.411,22
+Seasonal + Volume (기준선),3,0.4762,51.725,76.183,22
+Seasonal + Volume + E_기쁨_mean,4,0.4948,49.64,74.826,22
+Seasonal + Volume + E_슬픔_mean,4,0.3956,55.736,81.839,22
+Seasonal + Volume + E_분노_mean,4,0.4264,56.325,79.725,22
+Seasonal + Volume + E_중립_mean,4,0.2896,56.555,88.723,22
+Seasonal + Volume + E_composition(4개 전부),7,0.1604,67.849,96.46,22
+Seasonal + E_기쁨_mean (volume 없이),3,0.2072,73.499,93.733,22
+Seasonal + E_슬픔_mean (volume 없이),3,0.2888,68.738,88.778,22
+Seasonal + E_분노_mean (volume 없이),3,0.1989,73.804,94.22,22
+Seasonal + E_중립_mean (volume 없이),3,0.1038,74.439,99.655,22
+"Seasonal + E_composition(4개 전부, volume 없이)",6,0.0109,77.66,104.696,22

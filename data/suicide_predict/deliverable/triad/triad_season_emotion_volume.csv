@@ -1,0 +1,6 @@
+model,n_feat,R2,MAE,RMSE,n
+기준선(Season+Volume),3,0.4762,51.725,76.183,22
+Season+Volume+E_기쁨_mean,4,0.4948,49.64,74.826,22
+Season+Volume+E_슬픔_mean,4,0.3956,55.736,81.839,22
+Season+Volume+E_분노_mean,4,0.4264,56.325,79.725,22
+Season+Volume+E_중립_mean,4,0.2896,56.555,88.723,22
